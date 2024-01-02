@@ -15,11 +15,15 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
+    {"name":"Player","order":3,"path":"folders/Objects/Player.yy",},
+    {"name":"Player","order":4,"path":"folders/Sprites/Player.yy",},
+    {"name":"Inimigos","order":5,"path":"folders/Sprites/Inimigos.yy",},
+    {"name":"Inimigo","order":5,"path":"folders/Objects/Inimigo.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_tiro_player","order":1,"path":"objects/obj_tiro_player/obj_tiro_player.yy",},
-    {"name":"obj_inimigo01","order":2,"path":"objects/obj_inimigo01/obj_inimigo01.yy",},
-    {"name":"spr_inimigo01","order":2,"path":"sprites/spr_inimigo01/spr_inimigo01.yy",},
     {"name":"spr_tiro_player","order":1,"path":"sprites/spr_tiro_player/spr_tiro_player.yy",},
+    {"name":"spr_tiro_inimigo01","order":1,"path":"sprites/spr_tiro_inimigo01/spr_tiro_inimigo01.yy",},
+    {"name":"obj_tiro_inimigo01","order":1,"path":"objects/obj_tiro_inimigo01/obj_tiro_inimigo01.yy",},
   ],
 }
