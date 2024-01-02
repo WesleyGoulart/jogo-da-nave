@@ -18,6 +18,8 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_tiro_player","order":1,"path":"objects/obj_tiro_player/obj_tiro_player.yy",},
+    {"name":"obj_inimigo01","order":2,"path":"objects/obj_inimigo01/obj_inimigo01.yy",},
+    {"name":"spr_inimigo01","order":2,"path":"sprites/spr_inimigo01/spr_inimigo01.yy",},
     {"name":"spr_tiro_player","order":1,"path":"sprites/spr_tiro_player/spr_tiro_player.yy",},
   ],
 }
