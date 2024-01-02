@@ -34,6 +34,8 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},},
+    {"id":{"name":"spr_tiro_player","path":"sprites/spr_tiro_player/spr_tiro_player.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

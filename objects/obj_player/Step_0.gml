@@ -27,11 +27,18 @@ if (keyboard_check(ord("S")))
 }
 */
 
-var _up, _down, _left, _right;
+var _up, _down, _left, _right, _fire;
 _up = keyboard_check(ord("W"));
 _down = keyboard_check(ord("S"));
 _left = keyboard_check(ord("A"));
 _right = keyboard_check(ord("D"));
+_fire = keyboard_check_pressed(vk_space);
 
 y += (_down - _up) * velocidade;
 x += (_right - _left) * velocidade;
+
+if (_fire)
+{
+	// Criando o objeto tiro
+	instance_create_layer(x, y - sprite_height/3, "Tiros", obj_tiro_player);
+}
