@@ -62,3 +62,5 @@
 		9.4.3 - me desenhar um pouco maior
 		9.4.4 - Alterar como a gpu processa a mistura de cores
 		9.4.5 - Criar a variável de cores
+		
+10 - Criando o background do nosso jogo
