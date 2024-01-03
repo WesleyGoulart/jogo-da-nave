@@ -5,7 +5,7 @@
 // Criando o tiro se o inimigo ja está na tela
 if (y >= 0)
 {
-instance_create_layer(x, y, "Inimigos", obj_tiro_inimigo01);
+instance_create_layer(x - 3, y + sprite_height/3, "Tiros", obj_tiro_inimigo01);
 }
 
 
