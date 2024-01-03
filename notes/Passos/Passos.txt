@@ -1,0 +1,64 @@
+1- Criando o player
+	1.1 - importando a sprite do player
+	1.2 - Criando o objeto do player e dando a sprite dele
+	
+2 - Ajustando as dimensões da room e ajustando a viewport da room
+	2.1 - Criando uma viewport e camera para o jogo
+	2.2 Ajustando as dimensões para a view ser grande e o viewport menor
+	
+3 - Atirando
+	3.1 Importando as sprites do tiro do player
+	3.2 - Criando o objeto do tiro do player
+	3.3 - Fazendo o tiro ir para cima
+	3.4 - Fazendo o jogador atirar ao apertar espaço
+	3.5 - Dando efeito legar para o tiro
+		3.5.1 - Fazendo ele nascer grande e depois de um tempo ficar pequeno
+	3.6 - Destruir o tiro quando ele sair da tela
+	
+4 - Criando o primeiro inimigo
+	4.1 - importando as sprites
+	4.2 - Criando o objeto
+	4.3 - Fazendo ele ir para baixo
+	
+5 - Fazendo o inimigo 01 atirar
+	5.1 - Importando a sprite do tiro
+	5.2 - Criar o objeto do tiro
+	5.3 - Fazendo o tiro ir para baixo
+	5.4 - Atirando de fato
+	5.5 - Dando o efeito no tiro
+	
+(Criação de métodos)
+6 - Fazendo o tiro do player acertar o inimigo
+	6.1 - Se destruir ao acertar o inimigo
+	6.2 - Criar o impacto do tiro do player
+	6.3 - Fazendo o impacto do tiro desaparecer no final da animação
+	6.4 - Fazer o tiro NÃO criar o impacto quando ele sair da room
+	
+7 - Fazendo o tiro do inimigo acertar o player e ser destruido
+	7.1 Destruindo o tiro do inimigo quando ele sair da room
+	
+8 - Destruindo o inimigo quando ele leva um tiro
+	8.1 - Fazer o tiro do player também destruir o inimigo que colidir com ele
+	8.2 - Fazer com que ao ser destruido o inimigo crie uma explosão
+		8.2.1 - Criar a sprite da explosão
+		8.2.2 - Criar o objeto explosão
+		8.2.3 - Fazer o inimigo instanciar a explosão ao morrer
+		8.2.4 - Fazer a explosão se destruir no final da animação
+		
+9 - Pequenos ajustes parte 1
+	9.1 - Fazendo o inimigo ser destruido ao sair da tela
+	9.2 - Deixando o nosso background mais bonito
+	9.3 - Deixando nosso tiro mais bonito
+		9.3.1 - Criar a sprite do brilho
+		9.3.2 - Criar o draw event
+		9.3.3 - Se desenhar
+		9.3.4 - Desenhar o brilho
+		9.3.5 - Alterar como a gpu processa a mistura de imagens
+		9.3.6 - Criar a variável cores para ele mudar de cor
+		9.3.7 - Usar o lerp para diminuir o tamanho
+	9.4 - Deixando as explosões mais bonitas
+		9.4.1 - Criar o draw event
+		9.4.2 - Se desenhar
+		9.4.3 - me desenhar um pouco maior
+		9.4.4 - Alterar como a gpu processa a mistura de cores
+		9.4.5 - Criar a variável de cores
