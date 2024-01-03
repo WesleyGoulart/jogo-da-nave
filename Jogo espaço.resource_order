@@ -19,6 +19,8 @@
     {"name":"Player","order":4,"path":"folders/Sprites/Player.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Etc","order":6,"path":"folders/Sprites/Etc.yy",},
+    {"name":"Etc","order":6,"path":"folders/Objects/Etc.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_tiro_player","order":1,"path":"objects/obj_tiro_player/obj_tiro_player.yy",},
