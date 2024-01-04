@@ -68,3 +68,4 @@
 11 - Criando o segundo inimigo
 	11.1 - importando as sprites
 	11.2 - Criando o objeto
+	11.3 - Fazendo o inimigo 2 herdar comportamentos do inimigo 1 
