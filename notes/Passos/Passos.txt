@@ -90,4 +90,10 @@
 		13.1.1 - Fazendo com que a posição x e y sejam aleatórios
 
 14 - Criando o objeto controlador do jogo
+	14.1 - Ganhando pontos ao destruir inimigos
+	
+15 - Criando sistema de pontos
+	15.1 - Iniciando a variável pontos
+	15.2 - Ganhando pontos ao destruir os inimigos
+	15.3 - Rodando o método de ganhar pontos apenas se a instancia do objeto control existe
 

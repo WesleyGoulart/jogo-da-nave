@@ -4,8 +4,12 @@
 // Criando a explosão
 instance_create_layer(x, y, "Inimigos", obj_explosao);
 
-
-
+// Rodando o método de ganhar pontos
+// Checando se o objeto control existe
+if (instance_exists(obj_control))
+{
+	obj_control.ganha_pontos();
+}
 
 
 
