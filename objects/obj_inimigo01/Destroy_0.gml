@@ -8,7 +8,7 @@ instance_create_layer(x, y, "Inimigos", obj_explosao);
 // Checando se o objeto control existe
 if (instance_exists(obj_control))
 {
-	obj_control.ganha_pontos();
+	obj_control.ganha_pontos(10);
 }
 
 
