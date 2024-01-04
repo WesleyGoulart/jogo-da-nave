@@ -52,6 +52,7 @@
     {"id":{"name":"spr_tiro_inimigo01","path":"sprites/spr_tiro_inimigo01/spr_tiro_inimigo01.yy",},},
     {"id":{"name":"spr_explosao","path":"sprites/spr_explosao/spr_explosao.yy",},},
     {"id":{"name":"spr_brilho_inimigo1","path":"sprites/spr_brilho_inimigo1/spr_brilho_inimigo1.yy",},},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"obj_tiro_inimigo02","path":"objects/obj_tiro_inimigo02/obj_tiro_inimigo02.yy",},},
     {"id":{"name":"spr_impacto_tiro","path":"sprites/spr_impacto_tiro/spr_impacto_tiro.yy",},},
     {"id":{"name":"obj_tiro_inimigo01","path":"objects/obj_tiro_inimigo01/obj_tiro_inimigo01.yy",},},

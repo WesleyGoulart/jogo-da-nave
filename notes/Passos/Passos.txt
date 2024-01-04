@@ -83,3 +83,11 @@
 	12.4 - Iniciar indo na direção do player
 	12.5 - Apontando para a direção do player
 		12.5.1 - Fazer ela ganhar 90°
+	16.6 - Indo para a direçaõ do player apenas se ele existe
+	
+13 - Criação procedural dos inimigos
+	13.1 - Fazer com o que o objeto control crie inimigos de tempo em tempo
+		13.1.1 - Fazendo com que a posição x e y sejam aleatórios
+
+14 - Criando o objeto controlador do jogo
+
