@@ -7,9 +7,24 @@ alarm[0] = room_speed;
 // Iniciando o sistema de pontos
 pontos = 0;
 
+// Iniciando o sistema de level
+level = 1;
+
+// Quantos pontos eu preciso para o próximo level
+proximo_level = 20;
 
 // Criando um método para ganhar pontos
-ganha_pontos = function()
+///@method ganha_pontos(pontos)
+ganha_pontos = function(_pontos)
 {
-	pontos += 10;
+	pontos += _pontos;
+	
+	// Ganhando level se os pontos forem maior do que o proximo level
+	if (pontos > proximo_level)
+	{
+		level++;
+		
+		// Dobrando o valor do próximo level
+		proximo_level *= 2;
+	}
 }

@@ -88,6 +88,7 @@
 13 - Criação procedural dos inimigos
 	13.1 - Fazer com o que o objeto control crie inimigos de tempo em tempo
 		13.1.1 - Fazendo com que a posição x e y sejam aleatórios
+	13.2 - Criando inimigos diferentes com base no level
 
 14 - Criando o objeto controlador do jogo
 	14.1 - Ganhando pontos ao destruir inimigos
@@ -96,4 +97,11 @@
 	15.1 - Iniciando a variável pontos
 	15.2 - Ganhando pontos ao destruir os inimigos
 	15.3 - Rodando o método de ganhar pontos apenas se a instancia do objeto control existe
+	15.4 - Fazendo com que inimigos diferentes me façam ganhar pontos diferentes
+	15.5 - criar uma variavel nos inimigos chamada pontos eles dão
 
+16 - Criando o sistema de level
+	16.1 - Iniciando a variavel level
+	16.2 = Exibindo o level
+	16.3 - ganhando level quando eu ganhar um determinado numero de pontos
+	16.4 - Dobrando o valor de próximo level sempre que eu ganhar um level

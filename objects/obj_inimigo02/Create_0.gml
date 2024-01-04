@@ -3,6 +3,8 @@
 
 event_inherited();
 
+pontos = 20;
+
 // Criando minha variavel de controle para saber se posso mover para os lados
 posso_me_mover_para_lado = true;
 
