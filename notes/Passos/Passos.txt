@@ -64,3 +64,7 @@
 		9.4.5 - Criar a variável de cores
 		
 10 - Criando o background do nosso jogo
+
+11 - Criando o segundo inimigo
+	11.1 - importando as sprites
+	11.2 - Criando o objeto

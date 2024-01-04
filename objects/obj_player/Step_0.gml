@@ -27,7 +27,7 @@ if (keyboard_check(ord("S")))
 }
 */
 
-var _up, _down, _left, _right,e;
+var _up, _down, _left, _right;
 _up = keyboard_check(ord("W"));
 _down = keyboard_check(ord("S"));
 _left = keyboard_check(ord("A"));
