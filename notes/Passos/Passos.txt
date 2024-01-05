@@ -89,6 +89,10 @@
 	13.1 - Fazer com o que o objeto control crie inimigos de tempo em tempo
 		13.1.1 - Fazendo com que a posição x e y sejam aleatórios
 	13.2 - Criando inimigos diferentes com base no level
+	13.3 - Criar ondas de inimigos
+	13.4 - Criar as ondas apenas se não tem mais inimigos no jogo
+	13.5 - Criar a quantidade de inimigos com base no level
+	13.6 - Impedindo que inimigos sejam criados no mesmo lugar
 
 14 - Criando o objeto controlador do jogo
 	14.1 - Ganhando pontos ao destruir inimigos
