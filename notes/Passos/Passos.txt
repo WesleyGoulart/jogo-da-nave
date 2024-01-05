@@ -109,3 +109,6 @@
 	16.2 = Exibindo o level
 	16.3 - ganhando level quando eu ganhar um determinado numero de pontos
 	16.4 - Dobrando o valor de próximo level sempre que eu ganhar um level
+	
+17 - Deixar o tiro do player automatico
+	17.1 - Criando o evento do tiro

@@ -2,12 +2,14 @@
 
 velocidade = 5;
 
+espera_tiro = room_speed / 4;
+
 atirando = function ()
 {
-	var _fire = keyboard_check_pressed(vk_space);
-	if (_fire)
+	var _fire = keyboard_check(vk_space);
+	if (_fire && alarm[0] == -1)
 	{
-	// Criando o objeto tiro
+	alarm[0] = espera_tiro;
 	instance_create_layer(x, y - sprite_height/3, "Tiros", obj_tiro_player);
 	}
 }

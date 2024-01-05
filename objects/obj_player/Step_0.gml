@@ -37,5 +37,4 @@ _right = keyboard_check(ord("D"));
 y += (_down - _up) * velocidade;
 x += (_right - _left) * velocidade;
 
-// Atirando, criando o tiro
-atirando()
+atirando();
