@@ -38,3 +38,19 @@ y += (_down - _up) * velocidade;
 x += (_right - _left) * velocidade;
 
 atirando();
+
+if (keyboard_check_pressed(vk_up))
+{
+	if (level_tiro < 5)
+	{
+	level_tiro++;
+	}
+}
+
+if (keyboard_check_pressed(vk_down))
+{
+	if (level_tiro > 1)
+	{
+	level_tiro--;
+	}
+}
