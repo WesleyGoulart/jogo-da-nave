@@ -1,10 +1,16 @@
 /// @description Iniciando variáveis
 
-velocidade = 5;
 
-espera_tiro = room_speed / 4;
+// Para descobrir onde o arquivo é salvo, verifique aqui: https://manual.gamemaker.io/monthly/en/index.htm#t=Additional_Information%2FThe_File_System.htm
+ini_open("saves/savedata.ini");
+velocidade = ini_read_real("upgrades", "velocidade", 5);
+level_tiro = ini_read_real("upgrades", "level_tiro", 1);
+level_rate_tiro = ini_read_real("upgrades", "level_rate_tiro", 1);
+total_vida = ini_read_real("upgrades", "total_vida", 1);
+ini_close();
 
-level_tiro = 1;
+espera_tiro = room_speed / level_rate_tiro;
+
 
 atirando = function ()
 {
