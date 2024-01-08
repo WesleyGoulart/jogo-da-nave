@@ -1,4 +1,4 @@
-/// @description Abrir a loja
+/// @description Fechar a loja
  if (global.gamemode == "store") {
 	global.gamemode = "play";
 	room_goto(Room1);
