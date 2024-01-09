@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "SpeedUpgradeButton",
+  "name": "ShotRatioUpgradeButton",
   "bbox_bottom": 127,
   "bbox_left": 0,
   "bbox_right": 127,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "SpeedUpgradeButton",
+    "name": "ShotRatioUpgradeButton",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"340d27e4-ad04-44d9-a5a3-4cab41cc5512","path":"sprites/SpeedUpgradeButton/SpeedUpgradeButton.yy",},},},"Disabled":false,"id":"90a36e7b-dd0e-437a-b838-f4a12f067381","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"340d27e4-ad04-44d9-a5a3-4cab41cc5512","path":"sprites/ShotRatioUpgradeButton/ShotRatioUpgradeButton.yy",},},},"Disabled":false,"id":"a8e2d535-0c69-4701-b7bf-083c62ab7645","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

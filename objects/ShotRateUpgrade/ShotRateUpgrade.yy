@@ -1,12 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "SpeedUpgrade",
+  "name": "ShotRateUpgrade",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ParentUpgrade","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"propertyId":{"name":"upgradeSkill","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"value":"velocidade",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ParentUpgrade","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"propertyId":{"name":"upgradeIncrement","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"value":"5",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ParentUpgrade","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"propertyId":{"name":"upgradeSkill","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"value":"level_rate_tiro",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ParentUpgrade","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"propertyId":{"name":"upgradeIncrement","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"value":"2",},
   ],
   "parent": {
     "name": "Upgrades",
@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "SpeedUpgradeButton",
-    "path": "sprites/SpeedUpgradeButton/SpeedUpgradeButton.yy",
+    "name": "ShotRatioUpgradeButton",
+    "path": "sprites/ShotRatioUpgradeButton/ShotRatioUpgradeButton.yy",
   },
   "spriteMaskId": null,
   "visible": true,

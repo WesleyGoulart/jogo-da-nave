@@ -29,7 +29,9 @@
     {"name":"spr_brilho_tiro1","order":5,"path":"sprites/spr_brilho_tiro1/spr_brilho_tiro1.yy",},
     {"name":"spr_inimigo02","order":2,"path":"sprites/spr_inimigo02/spr_inimigo02.yy",},
     {"name":"spr_fundo","order":2,"path":"sprites/spr_fundo/spr_fundo.yy",},
+    {"name":"ShotRateUpgrade","order":2,"path":"objects/ShotRateUpgrade/ShotRateUpgrade.yy",},
     {"name":"obj_tiro2_player","order":2,"path":"objects/obj_tiro2_player/obj_tiro2_player.yy",},
+    {"name":"ShotRatioUpgradeButton","order":1,"path":"sprites/ShotRatioUpgradeButton/ShotRatioUpgradeButton.yy",},
     {"name":"spr_tiro_player","order":1,"path":"sprites/spr_tiro_player/spr_tiro_player.yy",},
     {"name":"spr_tiro2_player","order":2,"path":"sprites/spr_tiro2_player/spr_tiro2_player.yy",},
     {"name":"obj_explosao","order":1,"path":"objects/obj_explosao/obj_explosao.yy",},
@@ -46,5 +48,6 @@
     {"name":"obj_inimigo02","order":2,"path":"objects/obj_inimigo02/obj_inimigo02.yy",},
     {"name":"spr_fundo_extra3","order":4,"path":"sprites/spr_fundo_extra3/spr_fundo_extra3.yy",},
     {"name":"spr_tiro_inimigo02","order":3,"path":"sprites/spr_tiro_inimigo02/spr_tiro_inimigo02.yy",},
+    {"name":"ParentUpgrade","order":1,"path":"objects/ParentUpgrade/ParentUpgrade.yy",},
   ],
 }
