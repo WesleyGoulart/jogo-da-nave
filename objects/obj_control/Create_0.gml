@@ -57,7 +57,13 @@ cria_inimigo = function()
 }
 
 cria_boss = function () {
+	// Criando o inimigo
+	var _xx = irandom_range(32, 1888);
+	var _yy = irandom_range(-96, -1504);
 	_boss = obj_boss_1
-	instance_create_layer(32, -96, "Inimigos", _boss);
+	if (level > 5) {
+		_boss = obj_boss_2;
+	}
+	instance_create_layer(_xx, _yy, "Inimigos", _boss);
 	level++;
 }

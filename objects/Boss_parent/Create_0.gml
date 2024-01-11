@@ -4,8 +4,6 @@
 
 vspeed = 3;
 
-pontos = 10
-
 
 atirando = function()
 {
@@ -16,9 +14,9 @@ atirando = function()
 }
 
 infligeDano = function(dano) {
-	pontos -= dano;	
+	_pontos -= dano;	
 	
-	if (pontos <= 0) {
+	if (_pontos <= 0) {
 		instance_destroy();	
 	}
 }

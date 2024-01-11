@@ -1,17 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Boss_parent",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "name": "obj_boss_2",
+  "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Boss_parent","path":"objects/Boss_parent/Boss_parent.yy",},"propertyId":{"name":"_pontos","path":"objects/Boss_parent/Boss_parent.yy",},"value":"50",},
+  ],
   "parent": {
     "name": "Bosses",
     "path": "folders/Objects/Bosses.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Boss_parent",
+    "path": "objects/Boss_parent/Boss_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -25,11 +28,12 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"_pontos","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"10","varType":0,},
-  ],
+  "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Boss_2_spr",
+    "path": "sprites/Boss_2_spr/Boss_2_spr.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
