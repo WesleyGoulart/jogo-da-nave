@@ -6,7 +6,7 @@ ini_open("saves/savedata.ini");
 velocidade = ini_read_real("upgrades", "velocidade", 5);
 level_tiro = ini_read_real("upgrades", "level_tiro", 1);
 level_rate_tiro = ini_read_real("upgrades", "level_rate_tiro", 1);
-total_vida = ini_read_real("upgrades", "total_vida", 1);
+total_vida = ini_read_real("upgrades", "total_vida", 10);
 reward = ini_read_real("upgrades", "reward", 0);
 ini_close();
 

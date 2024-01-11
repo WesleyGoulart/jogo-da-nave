@@ -42,6 +42,9 @@ if (keyboard_check_pressed(vk_down))
 
 // Detectando se o player morreu
 if (total_vida <= 0) {
+	ini_open("saves/savedata.ini");
+	reward = ini_write_real("upgrades", "reward", reward);
+	ini_close();
 	global.gamemode = "store";
 	room_goto(Store);
 }
