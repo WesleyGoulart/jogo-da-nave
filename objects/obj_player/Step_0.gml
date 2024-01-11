@@ -54,3 +54,10 @@ if (keyboard_check_pressed(vk_down))
 	level_tiro--;
 	}
 }
+
+// Detectando se o player morreu
+if (total_vida <= 0) {
+	global.gamemode = "store";
+	room_goto(Store);
+}
+
