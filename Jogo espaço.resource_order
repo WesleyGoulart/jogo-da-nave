@@ -23,6 +23,8 @@
     {"name":"Upgrades","order":7,"path":"folders/Sprites/Upgrades.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Bosses","order":10,"path":"folders/Objects/Bosses.yy",},
+    {"name":"Bosses","order":8,"path":"folders/Sprites/Bosses.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obj_tiro_player","order":1,"path":"objects/obj_tiro_player/obj_tiro_player.yy",},
@@ -31,6 +33,7 @@
     {"name":"spr_fundo","order":2,"path":"sprites/spr_fundo/spr_fundo.yy",},
     {"name":"ShotRateUpgrade","order":2,"path":"objects/ShotRateUpgrade/ShotRateUpgrade.yy",},
     {"name":"obj_tiro2_player","order":2,"path":"objects/obj_tiro2_player/obj_tiro2_player.yy",},
+    {"name":"obj_boss_1","order":1,"path":"objects/obj_boss_1/obj_boss_1.yy",},
     {"name":"ShotRatioUpgradeButton","order":1,"path":"sprites/ShotRatioUpgradeButton/ShotRatioUpgradeButton.yy",},
     {"name":"spr_tiro_player","order":1,"path":"sprites/spr_tiro_player/spr_tiro_player.yy",},
     {"name":"spr_tiro2_player","order":2,"path":"sprites/spr_tiro2_player/spr_tiro2_player.yy",},

@@ -57,5 +57,7 @@ cria_inimigo = function()
 }
 
 cria_boss = function () {
-	cria_inimigo();
+	_boss = obj_boss_1
+	instance_create_layer(32, -96, "Inimigos", _boss);
+	level++;
 }
