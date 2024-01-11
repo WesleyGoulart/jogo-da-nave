@@ -14,3 +14,11 @@ atirando = function()
 		instance_create_layer(x - 3, y + sprite_height/3, "Tiros", obj_tiro_inimigo01);
 	}
 }
+
+infligeDano = function(dano) {
+	pontos -= dano;	
+	
+	if (pontos <= 0) {
+		instance_destroy();	
+	}
+}
