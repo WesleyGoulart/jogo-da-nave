@@ -7,6 +7,7 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ParentUpgrade","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"propertyId":{"name":"upgradeSkill","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"value":"velocidade",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ParentUpgrade","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"propertyId":{"name":"upgradeIncrement","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"value":"5",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ParentUpgrade","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"propertyId":{"name":"cost","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"value":"10",},
   ],
   "parent": {
     "name": "Upgrades",

@@ -7,6 +7,7 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ParentUpgrade","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"propertyId":{"name":"upgradeSkill","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"value":"level_rate_tiro",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ParentUpgrade","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"propertyId":{"name":"upgradeIncrement","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"ParentUpgrade","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"propertyId":{"name":"cost","path":"objects/ParentUpgrade/ParentUpgrade.yy",},"value":"20",},
   ],
   "parent": {
     "name": "Upgrades",
