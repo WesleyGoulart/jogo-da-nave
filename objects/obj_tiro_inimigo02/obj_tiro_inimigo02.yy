@@ -6,7 +6,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_tiro_inimigo01","path":"objects/obj_tiro_inimigo01/obj_tiro_inimigo01.yy",},"propertyId":{"name":"dano","path":"objects/obj_tiro_inimigo01/obj_tiro_inimigo01.yy",},"value":"2",},
+  ],
   "parent": {
     "name": "Inimigo",
     "path": "folders/Objects/Inimigo.yy",

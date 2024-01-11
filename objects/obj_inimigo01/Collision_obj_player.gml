@@ -3,3 +3,4 @@
 
 
 instance_destroy();
+other.total_vida -= dano;
