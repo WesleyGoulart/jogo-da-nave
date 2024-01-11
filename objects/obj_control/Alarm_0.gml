@@ -4,11 +4,15 @@
 // Repetindo o mesmo código
 if (!instance_exists(obj_inimigo01))
 {
-	var _repetir = 10 * level;
-	repeat(_repetir)
-	{
-		// Criando inimigo
-		cria_inimigo();
+	if (level % 5 != 0) {
+		var _repetir = 10 * level;
+		repeat(_repetir)
+		{
+			// Criando inimigo
+			cria_inimigo();
+		}
+	} else {
+		cria_boss();	
 	}
 }
 

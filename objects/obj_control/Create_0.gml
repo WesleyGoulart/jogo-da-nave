@@ -55,3 +55,7 @@ cria_inimigo = function()
 
 	instance_create_layer(_xx, _yy, "Inimigos", _inimigo);
 }
+
+cria_boss = function () {
+	cria_inimigo();
+}
